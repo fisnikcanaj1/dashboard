@@ -1,0 +1,44 @@
+.side-menu {
+    background: $purpleLight;
+    width: 280px;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+
+    nav{
+        padding-top: 100px;
+        a {
+            display: block;
+            color: $darkGrey;
+            text-decoration: none;
+            padding: 15px 30px 15px 25px;
+            font-weight: 300;
+            transition: all 0.04s linear;
+
+            &.active, &:hover {
+                background: $purpleDark;
+                border-left: 5px solid $lightGreen;
+
+                .far, .fas {
+                    color: $lightGreen;
+                }
+            }
+
+            &:hover i {
+                color: white;
+            }
+
+            .far, .fas {
+                color: $darkGrey;
+                margin-right: 0.8rem;
+                font-size: 1.4rem;
+                display: inline-block;
+                width: 30px;
+                position: relative;
+                top: 2px;
+            }
+        }
+    }
+}
+

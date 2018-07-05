@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700");
 /*!
  * Bootstrap v4.0.0 (https://getbootstrap.com)
  * Copyright 2011-2018 The Bootstrap Authors
@@ -5920,6 +5921,10 @@ a.text-dark:hover, a.text-dark:focus {
   color: white;
   background: #e4612c; }
 
+body {
+  font-family: 'Roboto', sans-serif;
+  background: #EAEDF3; }
+
 .login-footer {
   max-width: 22rem;
   position: relative;
@@ -5932,3 +5937,35 @@ a.text-dark:hover, a.text-dark:focus {
     text-align: right;
     right: 0%;
     font-size: 0.8rem; }
+
+.side-menu {
+  background: #302D43;
+  width: 280px;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  bottom: 0; }
+  .side-menu nav {
+    padding-top: 100px; }
+    .side-menu nav a {
+      display: block;
+      color: #EAEDF3;
+      text-decoration: none;
+      padding: 15px 30px 15px 25px;
+      font-weight: 300;
+      transition: all 0.04s linear; }
+      .side-menu nav a.active, .side-menu nav a:hover {
+        background: #282639;
+        border-left: 5px solid #92CF48; }
+        .side-menu nav a.active .far, .side-menu nav a.active .fas, .side-menu nav a:hover .far, .side-menu nav a:hover .fas {
+          color: #92CF48; }
+      .side-menu nav a:hover i {
+        color: white; }
+      .side-menu nav a .far, .side-menu nav a .fas {
+        color: #EAEDF3;
+        margin-right: 0.8rem;
+        font-size: 1.4rem;
+        display: inline-block;
+        width: 30px;
+        position: relative;
+        top: 2px; }

@@ -13,6 +13,7 @@
     "waypoints": "^4.0.1"
   },
   "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.1.0",
     "auto-prefixer": "^0.4.2",
     "autoprefixer": "^7.2.5",
     "babel-core": "^6.26.0",
