@@ -22,7 +22,7 @@
     }
 
     .card {
-        padding: 20px;
+        padding: 40px;
         text-align: center;
         min-height: 428px;
 
@@ -62,25 +62,42 @@
             p {
                 margin-bottom: 4px;
             }
+
+            .data {
+                padding-bottom: 2rem;
+            }
+
+            .travel-description {
+                padding-bottom: 2.8rem;
+            }
+
             .personal-description {
                 display: flex;
                 
-                span {
-                    margin-right: 14px;
-                    height: 22px;
-                    display: block;
-                    width: 22px;
-                    text-align: center;
-                    font-size: 12px;
-                    line-height: 24px;
-                    color: white;
-                    background-color: orange;
-                    border-radius: 50%;
+                .rounded-icon {
+                    width: 15%;
+
+                    span {
+                        margin-right: 14px;
+                        height: 22px;
+                        display: block;
+                        width: 22px;
+                        text-align: center;
+                        font-size: 12px;
+                        line-height: 24px;
+                        color: white;
+                        background-color: orange;
+                        border-radius: 50%;
+                    }
 
                     &.green {
                         background-color: #617EFF;
                     }
                 }
+
+                .travelt {
+                    width: 85%;
+                } 
             }
         }
     }

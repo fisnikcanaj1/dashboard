@@ -6968,7 +6968,7 @@ body {
   .dashboard-content .heading h1 {
     color: #6733CC; }
   .dashboard-content .card {
-    padding: 20px;
+    padding: 40px;
     text-align: center;
     min-height: 428px; }
     .dashboard-content .card .name {
@@ -7001,20 +7001,28 @@ body {
       text-align: left; }
       .dashboard-content .card .card-content p {
         margin-bottom: 4px; }
+      .dashboard-content .card .card-content .data {
+        padding-bottom: 2rem; }
+      .dashboard-content .card .card-content .travel-description {
+        padding-bottom: 2.8rem; }
       .dashboard-content .card .card-content .personal-description {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex; }
-        .dashboard-content .card .card-content .personal-description span {
-          margin-right: 14px;
-          height: 22px;
-          display: block;
-          width: 22px;
-          text-align: center;
-          font-size: 12px;
-          line-height: 24px;
-          color: white;
-          background-color: orange;
-          border-radius: 50%; }
-          .dashboard-content .card .card-content .personal-description span.green {
+        .dashboard-content .card .card-content .personal-description .rounded-icon {
+          width: 15%; }
+          .dashboard-content .card .card-content .personal-description .rounded-icon span {
+            margin-right: 14px;
+            height: 22px;
+            display: block;
+            width: 22px;
+            text-align: center;
+            font-size: 12px;
+            line-height: 24px;
+            color: white;
+            background-color: orange;
+            border-radius: 50%; }
+          .dashboard-content .card .card-content .personal-description .rounded-icon.green {
             background-color: #617EFF; }
+        .dashboard-content .card .card-content .personal-description .travelt {
+          width: 85%; }
