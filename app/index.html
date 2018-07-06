@@ -23,18 +23,17 @@
 
     <body>
         <!-- Begin page content -->
-        <main role="main" class="no-gutters">
-           <section class="side-menu" >
-                <nav>
-                    <a href="#" class="active"> <i class="fas fa-home"></i> item</a>
-                    <a href="#"> 
-                        <i class="far fa-sticky-note"></i> item</a>
-                    <a href="#"> <i class="far fa-bookmark"></i> item</a>
-                    <a href="#"> <i class="fas fa-calendar-alt"></i> item</a>
-                    <a href="#"> <i class="far fa-user"></i> item</a>
-                    <a href="#"> <i class="fas fa-cog"></i> item</a>
-                </nav>
-           </section>
+        <aside class="side-menu" >
+            <nav>
+                <a href="#" class="active"> <i class="fas fa-home"></i> <span class="item">item</span> </a>
+                <a href="#"><i class="far fa-sticky-note"></i> <span class="item">item</span> </a>
+                <a href="#"><i class="far fa-bookmark"></i> <span class="item">item</span> </a>
+                <a href="#"><i class="fas fa-calendar-alt"></i> <span class="item">item</span> </a>
+                <a href="#"><i class="far fa-user"></i> <span class="item">item</span> </a>
+                <a href="#"><i class="fas fa-cog"></i> <span class="item">item</span> </a>
+            </nav>
+        </aside>
+        <main role="main" class="main-content" class="no-gutters">
            <header class="main-header">
                 <div class="search-area">
                     <i class="fas fa-search"></i>
@@ -54,6 +53,70 @@
                     </a>
                 </div>
            </header>
+
+           <section class="dashboard-content">
+               <div class="heading">
+                   <h1>Dashborad</h1>
+                   <p>Wellcome to Gojobs job seeker dashboard</p>
+               </div>
+               <div class="row">
+                   <div class="col-lg-4">
+                        <div class="card mb-4">
+                            <div class="card-heading">
+                                <img src="assets/img/my-face-more.jpg" class="mb-2 img-fluid" alt="">
+                                <p class="name"><strong>Fisnik Canaj</strong></p>
+                                <div class="proffesion">Front-end Developer</div>
+                            </div>
+                            <hr>
+                            <div class="about mt-2">  
+                                <div class="previous"><p>Previous</p><p>
+                                <strong>University of Business and Technology</strong>
+                            </p> </div>
+                                <div class="previous"><p>Previous</p> <p>
+                                <strong>University of Business and Technology</strong>
+                            </p></div>
+                            </div>
+                        </div>
+                   </div>
+                   <div class="col-lg-4">
+                       <div class="card">
+                           <div class="card-heading doted">
+                               <p>Interview Schedule</p>
+                            <i class="fas fa-ellipsis-h"></i>
+                           </div>
+                           <div class="card-content">
+                               <h2 class="data mb-4">
+                                   21 Jul, 2016
+                               </h2>
+                               <div class="personal-description travel-description mb-4">
+                                   <div class="rounded-icon">
+                                       <span>OT</span>
+                                   </div>
+                                   <div class="travelt ">
+                                        <p>Online Travel & Ticketing Site</p>
+                                        <p> <strong>Junior Web Developer Front-End</strong> </p>
+                                        <small>08.00 AM</small>
+                                   </div>
+                               </div>
+                               <div class="personal-description travel-description">
+                                   <div class="rounded-icon">
+                                       <span class="green">OS</span>
+                                   </div>
+                                   <div class="traveld">
+                                        <p>Online Shoping e-commerce</p>
+                                        <p> <strong>Junior Web Developer Front-End</strong> </p>
+                                        <small>1.00 AM</small>
+                                   </div>
+                               </div>
+                           </div>
+
+                       </div>
+                   </div>
+                   <div class="col-lg-4">
+                       <div class="card"></div>
+                   </div>
+               </div>
+           </section>
         </main>
     
         <!-- build:js assets/js/App.js -->

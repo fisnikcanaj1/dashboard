@@ -2,9 +2,13 @@
     background: $purpleLight;
     width: 280px;
     height: 100vh;
-    position: absolute;
+    position: fixed;
     top: 0;
     bottom: 0;
+
+    @media (max-width: 1240px) {
+        width: 80px;
+    }
 
     nav{
         padding-top: 100px;
@@ -15,6 +19,12 @@
             padding: 15px 30px 15px 25px;
             font-weight: 300;
             transition: all 0.04s linear;
+
+            @media (max-width: 1240px) {
+                .item {
+                    display: none;
+                }
+            }
 
             &.active, &:hover {
                 background: $purpleDark;
