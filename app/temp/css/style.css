@@ -6970,7 +6970,8 @@ body {
   .dashboard-content .card {
     padding: 40px;
     text-align: center;
-    min-height: 428px; }
+    min-height: 428px;
+    max-height: 500px; }
     .dashboard-content .card .name {
       color: #6733CC;
       font-weight: bold;
